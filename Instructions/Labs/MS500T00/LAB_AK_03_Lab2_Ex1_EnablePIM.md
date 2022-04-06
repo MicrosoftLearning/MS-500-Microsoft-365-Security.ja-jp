@@ -1,53 +1,61 @@
-# モジュール 3 - ラボ 2 - 演習 1 - Azure リソースの管理
+---
+ms.openlocfilehash: 2ef17ec08b4b9091ba096ed25d8d9830632a00fb
+ms.sourcegitcommit: c203d5d5aaaf93bae4a8af2ae04b27f6314242c4
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "137820910"
+---
+# <a name="module-3---lab-2---exercise-1---manage-azure-resources"></a>モジュール 3 - ラボ 2 - 演習 1 - Azure リソースの管理
 
 
 **シナリオ**
 
-このラボでは、Azure Privileged Identity Management (PIM) を使用してジャスト イン タイム管理を有効にし、特権操作を実行できるユーザー数を制御する方法を学習します。また、使用可能なさまざまなディレクトリ ロールと、PIM がリソース レベルでロールの割り当てに拡張されるなどの新しい機能についても学びます。 
+このラボでは、Azure Privileged Identity Management (PIM) を使用してジャスト イン タイム管理を有効にし、特権操作を実行できるユーザー数を制御する方法を学習します。 また、使用可能なさまざまなディレクトリ ロールと、PIM がリソース レベルでロールの割り当てに拡張されるなどの新しい機能についても学びます。 
 
 
-### タスク 1: リソースを検出する
+### <a name="task-1-discover-resources"></a>タスク 1:リソースを検出する
 
-1.  まだ Microsoft 365 管理センターに MOD 管理者としてログインしている場合は、ユーザーを Holly Dickson に切り替えます。**Azure portal** `https://portal.azure.com/` に移動し、グローバル管理者の Holly Dickson としてサインインします。「**すべてのサービス**」 をクリックしてから検索し、`Azure AD Privileged Identity Management` を選択します。
+1.  まだ Microsoft 365 管理センターに MOD 管理者としてログインしている場合は、ユーザーを Holly Dickson に切り替えます。 **Azure Portal** `https://portal.azure.com/` にアクセスし、グローバル管理者 Holly dickson としてサインインします。 **[すべてのサービス]** をクリックし、`Azure AD Privileged Identity Management` を探して選択します。
 
-     ![スクリーンショット](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
-1.  同意ページが表示されたら、クリックして PIM に同意します。一部のテナントでは、PIM はすでに有効になっているので、このステップは不要です。
+1.  同意ページが表示されたら、クリックして PIM に同意します。 一部のテナントでは、PIM はすでに有効になっているので、このステップは不要です。
 
-     ![スクリーンショット](../Media/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
+     ![Screenshot](../Media/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
 
-1.  「**ID を確認**」 が表示されたらクリックします。
+1.  **[ID を確認]** が表示されたらクリックします。
 
-     ![スクリーンショット](../Media/bab59fee-f511-4acb-9b7f-fbade8180ce6.png)
+     ![Screenshot](../Media/bab59fee-f511-4acb-9b7f-fbade8180ce6.png)
 
-1.  「**次へ**」 をクリックします。
+1.  **[次へ]** をクリックします。
 
-     ![スクリーンショット](../Media/ba0fec59-067d-4c37-ac48-9f7382eb1e22.png)
+     ![Screenshot](../Media/ba0fec59-067d-4c37-ac48-9f7382eb1e22.png)
 
-1.  携帯電話の詳細を入力して、「**次へ**」 をクリックします。
+1.  携帯電話の詳細を入力して、 **[次へ]** をクリックします。
 
-     ![スクリーンショット](../Media/2b6079d5-3c88-4dff-b49b-5bc1193e003a.png)
+     ![Screenshot](../Media/2b6079d5-3c88-4dff-b49b-5bc1193e003a.png)
  
-1.  SMS 経由でコードを受信したら入力して、「**確認**」 をクリックします。
+1.  SMS 経由でコードを受信したら入力して、 **[確認]** をクリックします。
 
-     ![スクリーンショット](../Media/f28fb995-7078-43f3-8edb-8a952111af07.png)
+     ![Screenshot](../Media/f28fb995-7078-43f3-8edb-8a952111af07.png)
 
-1. 検証が成功したら、「**完了**」 をクリックします。
+1. 検証が成功したら、 **[完了]** をクリックします。
 
-1.  Azure Portal で 「**すべてのサービス**」 をクリックし、「**Azure AD Privileged Identity Management**」 を検索して選択します。
+1.  Azure Portal で **[すべてのサービス]** をクリックし、 **[Azure AD Privileged Identity Management]** を検索して選択します。
 
-     ![スクリーンショット](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  同意ページが表示されたら、クリックして PIM に同意します。
 
-     ![スクリーンショット](../Media/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
+     ![Screenshot](../Media/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
 
-1.  「**Consent to PIM blade**」 に戻り、「**同意**」 をクリックして 「**はい**」 をクリックします。
+1.  **Consent to PIM blade** に戻り、**同意** をクリックして **はい** をクリックします。
 
-     ![スクリーンショット](../Media/35eb7586-5a30-41a6-9f1c-abb48f8ed548.png)
+     ![Screenshot](../Media/35eb7586-5a30-41a6-9f1c-abb48f8ed548.png)
 
-1.  **F5**を押して Azure portal を更新します。
+1.  **F5** を押して Azure portal を更新します。
    
-    **注**: ブラウザでポータルを更新しても PIM が有効になっていると表示されない場合は、ログアウトしてから Azure Portal に戻ってください。
+    **注**:ブラウザでポータルを更新しても PIM が有効になっていると表示されない場合は、ログアウトしてから Azure Portal に戻ってください。
 
-# 演習 2 に進んでください
+# <a name="continue-to-exercise-2"></a>演習 2 に進んでください

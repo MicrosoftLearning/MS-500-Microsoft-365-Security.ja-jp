@@ -1,89 +1,97 @@
-# モジュール 3 - ラボ 2 - 演習 5 - PIM リソースのワークフロー
+---
+ms.openlocfilehash: 8b2335cc512fafa1f747ecbe679b7f8efa6d3c54
+ms.sourcegitcommit: c203d5d5aaaf93bae4a8af2ae04b27f6314242c4
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "137820924"
+---
+# <a name="module-3---lab-2---exercise-5---pim-resource-workflows"></a>モジュール 3 - ラボ 2 - 演習 5 - PIM リソースのワークフロー
 
 
-### タスク 1:  承認が必要になるようにグローバル管理者ロールを構成します。
+### <a name="task-1--configure-the-global-administrator-role-to-require-approval"></a>タスク 1:承認が必要になるようにグローバル管理者ロールを構成します。
 
 1.  まだ以前の演習のまま、Holly としてログインしているはずです。  `Azure AD Privileged Identity Management` を開きます。
 
-1.  「**Azure AD ロール**」 をクリックします。
+1.  **[Azure AD roles]\(Azure AD ロール)** をクリックします。
 
-1.  「**設定**」 をクリックします。 
+1.  [**Settings**] をクリックします。 
 
-1.  `Global Administrator` を選択します。
+1.  [`Global Administrator`] を選択します。
 
-1.  「**編集**」 をクリックし、スクロールダウンして 「**アクティブ化には承認が必要です**」 をマークします。  
+1.  **[編集]** をクリックし、スクロールダウンして **[アクティブ化には承認が必要です]** をマークします。  
 
-2.  「**承認者の選択**」 をクリックして Holly Dickson を承認者に指名し、「**選択**」 をクリックします。  「**更新**」 をクリックします。
+2.  **[承認者の選択]** をクリックして Holly Dickson を承認者に指名し、 **[選択]** をクリックします。  **[更新]** をクリックします。
 
 
-### タスク 2: グローバル管理者特権で Patti を有効にする
+### <a name="task-2-enable-patti-for-global-administrator-privileges"></a>タスク 2:グローバル管理者特権で Patti を有効にする
 
-1.  **Azure AD Privileged Identity Management** を開きます。
+1.  **[Azure AD Privileged Identity Management]** を開きます。
 
-1.  「**Azure AD ロール**」 をクリックします。
+1.  **[Azure AD roles]\(Azure AD ロール)** をクリックします。
 
-1.  「**クイックスタート**」 をクリックして、「**Assign eligibility**」 を選択します。
+1.  **[クイックスタート]** をクリックして、 **[Assign eligibility]** を選択します。
 
-     ![スクリーンショット](../Media/ae3755ac-bd82-4e70-a102-ccbfc3aee48f.png)
+     ![Screenshot](../Media/ae3755ac-bd82-4e70-a102-ccbfc3aee48f.png)
 
-1.  「**グローバル管理者**」 を選択します。
+1.  **[グローバル管理者]** を選択します。
 
-1.  「**+ 割り当ての追加**」 を選択してから 「**Patti Fernandez**」 を追加します。「**選択**」 をクリックします。
+1.  **[+ 割り当ての追加]** を選択し、 **[メンバーの選択]** で **[Patti Fernandez]** を選択します。 **[選択]** をクリックします。
 
-2.  「**次へ**」 をクリックしてから 「**割り当て**」 をクリックします。
+2.  **[次へ]** をクリックしてから **[割り当て]** をクリックします。
 
 1.  inPrivate 閲覧セッションを開き、Patti Fernandez として `https://portal.azure.com` にログインします。  このブラウザーは前の演習から開いたままになっているかもしれません。
 
-1.  **Azure AD Privileged Identity Management** を開きます。
+1.  **[Azure AD Privileged Identity Management]** を開きます。
 
-1.  「**自分のロール**」 を選択します。
+1.  **[自分のロール]** を選択します。
 
-     ![スクリーンショット](../Media/e84f0715-c71e-4b1c-87ed-4e5c0c38d501.png)
+     ![Screenshot](../Media/e84f0715-c71e-4b1c-87ed-4e5c0c38d501.png)
 
-1.  グローバル管理者のロールを**アクティブ化**します。
+1.  グローバル管理者のロールを **アクティブ化** します。
 
-     ![スクリーンショット](../Media/55eb14b5-540a-4d26-aed7-0b96d162fb31.png)
+     ![Screenshot](../Media/55eb14b5-540a-4d26-aed7-0b96d162fb31.png)
 
 1.  必要に応じてウィザードを使い、Patti の ID を確認します。
 
-1.  **Azure AD Privileged Identity Management** で 「**自分のロール**」 に戻ります。
+1.  **Azure AD Privileged Identity Management** で **[自分のロール]** に戻ります。
 
-1.  グローバル管理者のロールの近くで 「**アクティブ化**」 をクリックします。
+1.  グローバル管理者のロールの近くで **[アクティブ化]** をクリックします。
 
-1.  アクティブ化の理由として「**いくつかの管理タスクを実行する必要がある**」と入力し、「**アクティブ化**」 をクリックします。
+1.  アクティブ化の理由として「**いくつかの管理タスクを実行する必要がある**」と入力し、 **[アクティブ化]** をクリックします。
 
 要求が「承認保留中」という通知が表示されます。
 
 
-### タスク 3: PIM で Azure リソース ロールに対する要求を承認または拒否する
+### <a name="task-3-approve-or-deny-requests-for-azure-resource-roles-in-pim"></a>タスク 3:PIM で Azure リソースロールのリクエストを承認または拒否する
 
 
-Azure AD Privileged Identity Management (PIM) を使用して、アクティブ化の承認を必要とするようにロールを構成できます。また、代理承認者として 1 名以上のユーザーまたはグループを選択できます。Azure リソース ロールの要求を承認または拒否するには、この記事の手順に従ってください。
+Azure AD Privileged Identity Management (PIM) を使用して、アクティブ化の承認を必要とするようにロールを構成できます。また、代理承認者として 1 名以上のユーザーまたはグループを選択できます。 Azure リソース ロールの要求を承認または拒否するには、この記事の手順に従ってください。
 
 
-###### 保留中の要求を表示する
+###### <a name="view-pending-requests"></a>保留中の要求を表示する
 
 
-委任された承認者として、Azure リソースロールリクエストが承認を保留しているときに電子メール通知を受け取ります。これらの保留中の要求は、PIM で表示できます。
+委任された承認者として、Azure リソースロールリクエストが承認を保留しているときに電子メール通知を受け取ります。 これらの保留中の要求は、PIM で表示できます。
 
 
 1.  グローバル管理者アカウントの Holly Dickson を使ってサインインしているブラウザーに切り替えます。
 
-1.  **Azure AD Privileged Identity Management** を開きます。
+1.  **[Azure AD Privileged Identity Management]** を開きます。
 
-1.  「**申請の承認**」 をクリックします。
+1.  **[申請の承認]** をクリックします。
 
-     ![スクリーンショット](../Media/fbc2f18d-f5a2-4139-b92d-7c19311aec1c.png)
+     ![Screenshot](../Media/fbc2f18d-f5a2-4139-b92d-7c19311aec1c.png)
 
-1.  Patti からの要求をクリックして、「**承認**」をクリックします。
+1.  Patti からの要求をクリックして、 **[承認]** をクリックします。
 
-1.  理由として「**このタスクで許可されている**」と入力し、「**確認**」 をクリックします。
+1.  理由として「**このタスクで許可されている**」と入力し、 **[確認]** をクリックします。
 
 1.  Patti が承認されると、通知が表示されます。
 
-1.  Patti がサインインしている inPrivate 閲覧セッションに戻り、「**自分のロール**」 をクリックして、「**Active assignments**」 を選択します。これでグローバル管理者のステータスが有効になります。
+1.  Patti がサインインしている inPrivate 閲覧セッションに戻り、 **[自分のロール]** をクリックして、 **[Active assignments]** を選択します。これでグローバル管理者のステータスが有効になります。
 
-     ![スクリーンショット](../Media/fe734263-57c8-4cc9-b79f-848d7d4f9488.png)
+     ![Screenshot](../Media/fe734263-57c8-4cc9-b79f-848d7d4f9488.png)
 
 
-# 演習 6 に進んでください
+# <a name="continue-to-exercise-6"></a>演習 6 に進んでください
