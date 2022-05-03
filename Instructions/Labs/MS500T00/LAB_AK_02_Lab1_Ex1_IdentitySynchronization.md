@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 23bb1e34a22b46b2f8ee513ef7a6108e044e3d0b
-ms.sourcegitcommit: e892df78114aa3ac3094f9c5ed7097ca5559267a
+ms.openlocfilehash: 02ddbc057b4405725c6450d032e55dbc78caeb7e
+ms.sourcegitcommit: 45fca5e9e4dc6e398302227c4c04f451e025d9cb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "139262467"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "143961335"
 ---
 # <a name="module-2---lab-1---exercise-1---setting-up-your-organization-for-identity-synchronization"></a>モジュール 2 - ラボ 1 - 演習 1 - ID 同期向けの組織設定 
 
@@ -40,7 +40,7 @@ ms.locfileid: "139262467"
 2.  ライセンス条項とプライバシーに関する声明に同意します。
 3.  **[簡単設定を使う]** をクリックします。   
 4.  **[Azure AD に接続]** 画面で Office 365 管理者ユーザー名 **holly@M365xZZZZZZ.onmicrosoft.com** とパスワード `Pa55w.rd` を入力し、[次へ] をクリックします。   
-5.  ポップアップ サインイン ウィンドウの **[AD DS に接続]** 画面が表示される場合は、ドメイン管理者 **Admin@M365xZZZZZZ.onmicrosoft.com** とパスワード `ycYoe&L20a%%` を入力し、 **[次へ]** を選びます。   
+5.  ポップアップ サインイン ウィンドウの **[AD DS に接続]** 画面が表示される場合は、ドメイン管理者 **Admin@M365xZZZZZZ.onmicrosoft.com** と **プロバイダーをホストするラボによって提供される** パスワードを入力し、 **[次へ]** を選びます。   
 6.  **[AD DS に接続]** 画面でドメイン管理者 **ADATUM\Administrator** とパスワード `Pa55w.rd` を入力して、 **[次へ]** を選びます。
 7.  **[Continue without matching all UPN suffixes to verified domains]** チェックボックスを選択します。 Azure AD サインイン構成画面で **[次へ]** を選択します。   
 8.  **[構成の準備完了]** 画面で **[構成が完了したら、同期プロセスを開始]** チェックボックスが選択されていることを確認してから **[インストール]** を選択します。   
@@ -55,7 +55,7 @@ ms.locfileid: "139262467"
 2.  以下の資格情報を使用し、Holly Dickson としてサインインします。ユーザー名: **holly@M365xZZZZZZ.onmicrosoft.com** 、パスワード: `Pa55w.rd`  
 3.  左側のナビゲーションで、 **[ユーザー]** アイコンを選び、 **[アクティブなユーザー]** を選びます 
 4.  ローカル Active Directory から同期された多くのユーザーが表示されるはずです。  [更新] ボタンをクリックして、このページのデータを更新する必要があるかもしれません。  
-5.  次のユーザーを編集して、Microsoft 365 E5 ライセンスと Enterprise Mobility + Security E5 ライセンスの **両方** を削除します: -Debra Berger -Irvin Sayers -Johanna Lorenz -Lidia Hallowey -Pradeep Gupta **注** M365 サブスクリプションがプロビジョニングされたときに、使用可能なすべてのライセンスが割り当てられました。 このラボと後のラボにはいくつかのライセンスが必要なので、必要のないユーザー何人かのライセンス割り当てを削除できます。
+5.  **[Only complete if these users exist]\(これらのユーザーが存在する場合にのみ完了\)** 次のユーザーを編集して、Microsoft 365 E5 ライセンスと Enterprise Mobility + Security E5 ライセンスの **両方** を削除します: -Debra Berger -Irvin Sayers -Johanna Lorenz -Lidia Hallowey -Pradeep Gupta **注** M365 サブスクリプションがプロビジョニングされたときに、使用可能なすべてのライセンスが割り当てられた可能性があります。 このラボと後のラボにはいくつかのライセンスが必要なので、必要のないユーザー何人かのライセンス割り当てを削除できます。
 6.  [Abbie Parsons] を選択します。  Abbie は、同期前には AD DS ドメインにのみ含まれていたユーザーです。 Abbie Parsons の製品ライセンスを以下のように編集します。 
     - 場所 = 英国
     - 製品ライセンス = Enterprise Mobility + Security E5

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 1a97ecb4ce509ea883ff4d29c52fcd13c841d034
-ms.sourcegitcommit: 25b9793190d40e69ed31815267fb6754397768bd
+ms.openlocfilehash: 62408c386d1a5a6a847c425c5d8adcc2070f44dd
+ms.sourcegitcommit: 45fca5e9e4dc6e398302227c4c04f451e025d9cb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "137943302"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "143961338"
 ---
 # <a name="module-1---lab-1---exercise-1---set-up-your-microsoft-365-tenant"></a>モジュール 1 - ラボ 1 - 演習 1 - Microsoft 365 テナントの設定 
 
@@ -236,7 +236,7 @@ Microsoft 365 をインストールする際に複数の構成ステップを実
 
 4. **[監査ログの検索]** ウィンドウで、ページの右上にある **[監査を有効にする]** を選択し、 **[組織の設定を更新する必要があります。続けますか?]** という質問で **[はい]** を選択します。 注: "監査ログ" は、MS 365 および Office 365 Enterprise 組織では既定でオンになります。 そのページに「監査ログをオンにする」というプロンプトが表示されない場合は、「監査ログ」が既定でオンになっていることを意味します。
 
-5. クライアント 1 VM とセキュリティ/コンプライアンス センターは開いたままにしておきます。
+5. **LON-DC1** VM とセキュリティ/コンプライアンス センターは開いたままにしておきます。
 
 
 
