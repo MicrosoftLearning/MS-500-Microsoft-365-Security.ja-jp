@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0e7ea214bb259f3a0ea490ea606764c340d00a3f
-ms.sourcegitcommit: c203d5d5aaaf93bae4a8af2ae04b27f6314242c4
+ms.openlocfilehash: 9116378434fc989816737e35c4461b805d934e36
+ms.sourcegitcommit: f7046452e5ba445da2ec2ca1ccc7821c90ede5ef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "137821037"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "145952991"
 ---
 # <a name="module-9---lab-1---exercise-1---initialize-compliance"></a>モジュール 9 - ラボ 1 - 演習 1 - コンプライアンスを初期化する 
 
@@ -14,7 +14,7 @@ Adatum のセキュリティ管理者、Holly Dickson としてのロールで�
 
 Adatum パイロット プロジェクトのこのフェーズでは、セキュリティ/コンプライアンス センターにアクセスして Holly Dickson のアーカイブ メールボックスをアクティブ化します。   
 
-1. [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)に移動します。 左側のペインで **[情報ガバナンス]** をクリックします (これが表示される前に最下部で **[...すべて表示]** をクリックすることもできます)。 **[情報ガバナンス]** ウィンドウで **[アーカイブ]** タブをクリックします。 
+1. [Microsoft 365 コンプライアンス センター](https://compliance.microsoft.com/)に移動します。 左ウィンドウの **[データ ライフサイクル管理]** をクリックします (これを表示するには、 **[すべて表示]** をクリックすることもできます)。 **[データ ライフサイクル管理]** ウィンドウで、 **[アーカイブ]** タブをクリックします。 
 
 3. **[アーカイブ]** ウィンドウで、Holly Dickson 以外のユーザー全員のアーカイブ メールボックスが有効になります。 これらのアーカイブ メールボックスは、このトレーニング コース向けに VM が構築された際に有効化されており、ユーザーはテナントで事前に構成されています。 ただし、Holly は以前のラボで追加されたため、彼女のアーカイブ メールボックスは既定で無効になっています。
 

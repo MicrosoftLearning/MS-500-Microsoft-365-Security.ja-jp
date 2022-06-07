@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 796cfbbd80a9a47b0c3412799f9f1e1e3357d721
-ms.sourcegitcommit: c203d5d5aaaf93bae4a8af2ae04b27f6314242c4
+ms.openlocfilehash: bc703fdb2b6293e258f236b01c83d5fb8d4dba8d
+ms.sourcegitcommit: f7046452e5ba445da2ec2ca1ccc7821c90ede5ef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "137821048"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "145952985"
 ---
 # <a name="module-9---lab-1---exercise-2---configure-retention-tags-and-policies"></a>モジュール 9 - ラボ １ - 演習 2 - 保持タグと保持ポリシーを構成する  
 
@@ -82,13 +82,13 @@ Adatum のパイロット プログラムの一環として、MRM 保持タグ�
 これでカスタム個人保持タグなど複数の保持タグがる組まれた新しい保持ポリシーが作成されました。 その後、保持ポリシーを介して保持タグが Alex と Joni のメールボックスに割り当てられました。
 
 
-### <a name="task-2--create-a-retention-policy-in-the-security-and-compliance-center"></a>タスク 2 – セキュリティ/コンプライアンス センターで保持ポリシーを作成する
+### <a name="task-2--create-a-retention-policy-in-the-microsoft-pureview"></a>タスク 2 – Microsoft PureView でアイテム保持ポリシーを作成する
 
-Adatum のパイロット プロジェクトの一環として、あらゆる Exchange Online メールボックスのコンテンツを最後の変更から 7 年間は削除から保護する保持ポリシーをセキュリティ/コンプライアンス センターで作成します。 
+Adatum のパイロット プロジェクトの一環として、Microsoft PureView Portal で、Exchange Online のすべてのメールボックスのコンテンツを最後の変更から 7 年間は削除から保護するアイテム保持ポリシーを作成します。 
 
-1. **Microsoft Edge** で [**Microsoft 365 コンプライアンス**](https://compliance.microsoft.com/)に移動します。  **Holly Dickson** としてログインしていることを確認してください。
+1. **Microsoft Edge** で [ **[Microsoft PureView]** ](https://compliance.microsoft.com/) に移動します。  **Holly Dickson** としてログインしていることを確認してください。
 
-2. 左側のナビゲーション ペインで **[情報ガバナンス]** をクリックします (最初に **[...すべて表示]** をクリックすることが必要な場合があります)。その後、 **[保持ポリシー]** タブを選択します。
+2. 左側のナビゲーション ウィンドウで **[データ ライフサイクル管理]** をクリックします (最初に **[すべて表示]** をクリックすることが必要な場合があります)。その後、 **[保持ポリシー]** タブを選択します。
 
 3. **[保持ポリシー]** タブで **[+ 新しい保持ポリシー]** をクリックし、ウィザードを起動して新しい保持ポリシーを作成します。
 
@@ -106,7 +106,7 @@ Adatum のパイロット プロジェクトの一環として、あらゆる Ex
 
 9. クライアント 1 VM または Microsoft Edge は閉じないでください。 Web ブラウザーとすべてのタブは次のラボに備えて開いたままにしておきます。
 
-これで、セキュリティ/コンプライアンス センターで、あらゆるメールボックスの Exchange メールをすべて、最後の変更から 7 年間保持する新しい保持ポリシーが作成されました。
+これで、Microsoft PureView Portal で、すべてのメールボックスの Exchange メールをすべて、最後の変更から 7 年間保持する新しいアイテム保持ポリシーが作成されました。
 
  # <a name="end-of-lab"></a>ラボ終了
  
