@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: bc703fdb2b6293e258f236b01c83d5fb8d4dba8d
-ms.sourcegitcommit: f7046452e5ba445da2ec2ca1ccc7821c90ede5ef
+ms.openlocfilehash: 2d91a06ec9fa17a44af0933c1601abfffa24187f
+ms.sourcegitcommit: 042f2d80275d6d120a034be93973f99e1ae31aa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "145952985"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "146819536"
 ---
 # <a name="module-9---lab-1---exercise-2---configure-retention-tags-and-policies"></a>モジュール 9 - ラボ １ - 演習 2 - 保持タグと保持ポリシーを構成する  
 
@@ -82,11 +82,12 @@ Adatum のパイロット プログラムの一環として、MRM 保持タグ�
 これでカスタム個人保持タグなど複数の保持タグがる組まれた新しい保持ポリシーが作成されました。 その後、保持ポリシーを介して保持タグが Alex と Joni のメールボックスに割り当てられました。
 
 
-### <a name="task-2--create-a-retention-policy-in-the-microsoft-pureview"></a>タスク 2 – Microsoft PureView でアイテム保持ポリシーを作成する
+### <a name="task-2--create-a-retention-policy-in-the-microsoft-purview"></a>タスク 2 – Microsoft Purview でアイテム保持ポリシーを作成する
 
-Adatum のパイロット プロジェクトの一環として、Microsoft PureView Portal で、Exchange Online のすべてのメールボックスのコンテンツを最後の変更から 7 年間は削除から保護するアイテム保持ポリシーを作成します。 
+Adatum のパイロット プロジェクトの一環として、Microsoft Purview Portal で、Exchange Online のすべてのメールボックスのコンテンツを最後の変更から 7 年間は削除から保護するアイテム保持ポリシーを作成します。 
 
-1. **Microsoft Edge** で [ **[Microsoft PureView]** ](https://compliance.microsoft.com/) に移動します。  **Holly Dickson** としてログインしていることを確認してください。
+1. **Microsoft Edge** で [**Microsoft Purview**](https://compliance.microsoft.com/) に移動します。  **Holly Dickson** としてログインしていることを確認してください。
+
 
 2. 左側のナビゲーション ウィンドウで **[データ ライフサイクル管理]** をクリックします (最初に **[すべて表示]** をクリックすることが必要な場合があります)。その後、 **[保持ポリシー]** タブを選択します。
 

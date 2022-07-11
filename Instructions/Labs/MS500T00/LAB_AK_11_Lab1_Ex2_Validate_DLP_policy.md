@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0d8c501bb60591ceae43de0cca25eb0307ee3911
-ms.sourcegitcommit: 619124fc7aa1c770a67c77e6bbc16fa13e73f2f0
+ms.openlocfilehash: fbad1e8005568a331852266a7ad7047dd0c07253
+ms.sourcegitcommit: 042f2d80275d6d120a034be93973f99e1ae31aa6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "137821073"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "146819542"
 ---
 # <a name="module-11---lab-1---exercise-2---test-dlp-policies"></a>モジュール 11 - ラボ 1 - 演習 2 - DLP ポリシーをテストする
 
@@ -28,8 +28,9 @@ ms.locfileid: "137821073"
 
     - 件名を追加する: `DLP Policy Test`
 
-    - メッセージ領域: 「`This customer has social security number: 123-45-6789`」を入力します。
+    - メッセージ領域: 「`This customer has social security number: 489-36-8350`」を入力します。
 
+    > **注**:使用される SSN は架空のものであり、データ損失防止ポリシーのサンプル データのパブリック リポジトリから提供されます。 これらのポリシーをテストするときは、個人情報を入力 **しないで** ください。
 
 5. **[送信]** を選択します。
 
@@ -41,7 +42,7 @@ ms.locfileid: "137821073"
 
     - 件名を追加する: `multiple SSN test`
 
-    - メッセージ領域: `SSN = 123 45 6789 and another customer SSN 111 11 1111 and a third 222 22 2222`
+    - メッセージ領域: `SSN = 489-36-8350 and another customer SSN 514-14-8905 and a third 690-05-5315`
 
 8. **[送信]** を選択します。
 
